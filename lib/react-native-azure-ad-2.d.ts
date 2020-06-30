@@ -9,7 +9,6 @@ declare module 'react-native-azure-ad-2' {
 		loadingMessage?: string;
 	}
 
-	const AzureLoginView: React.StatelessComponent<AzureLoginViewProps>;
-	const AzureInstance: AzureInstance;
-	export default { AzureLoginView, AzureInstance };
+	export const AzureLoginView: React.StatelessComponent<AzureLoginViewProps>;
+	export const AzureInstance: AzureInstance;
 }
